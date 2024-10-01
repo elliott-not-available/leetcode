@@ -1,3 +1,4 @@
+# TODO: https://leetcode.com/problems/all-oone-data-structure/description/?envType=daily-question&envId=2024-09-29
 class AllOne:
 
     def __init__(self):
@@ -20,9 +21,10 @@ class AllOne:
         
 
     def dec(self, key: str) -> None:
-        
+        pass
 
     def getMaxKey(self) -> str:
-        
+        pass
 
     def getMinKey(self) -> str:
+        pass
