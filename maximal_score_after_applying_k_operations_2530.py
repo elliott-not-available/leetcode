@@ -22,3 +22,15 @@ class Solution:
         return score
 
 
+class Solution_top:
+    def maxKelements(self, nums: list[int], k: int) -> int:
+        heapq.heapify(pq:=[-x for x in nums])
+        score=0
+        for i in range(k):
+            x = -heapq.heappop(pq)
+            score+=x
+            if x==1:
+                score+=k-1-i
+                break
+            heapq.heappush(pq, -((x+2)//3))
+        return score
