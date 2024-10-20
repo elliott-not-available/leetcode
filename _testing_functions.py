@@ -1,6 +1,6 @@
 from typing import Any
 
-def print_column(cols: list[Any], width: int = 20) -> None:
+def print_row(cols: list[Any], width: int = 20) -> None:
     # center aligned
     col_width = width
     out_str = ""
