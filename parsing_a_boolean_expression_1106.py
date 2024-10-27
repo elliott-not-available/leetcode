@@ -6,7 +6,7 @@ class Solution:
         s = expression
         i = 0
 
-        def helper():
+        def helper():    
             nonlocal i
             c = s[i]
             i += 1
