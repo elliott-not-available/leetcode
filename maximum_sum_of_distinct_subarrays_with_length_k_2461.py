@@ -50,7 +50,7 @@ class Solution:
         return res
         
 
-class Solution:
+class Solution_optimised:
     # neeted - optimised sliding window
     def maximumSubarraySum(self, nums: list[int], k: int) -> int:
         res = 0
