@@ -1,0 +1,4 @@
+# Favourite problems
+
+# https://leetcode.com/problems/construct-smallest-number-from-di-string/description/?envType=daily-question&envId=2025-02-18
+- good example of how working through examples can help you understand a better solution (stack problem)
