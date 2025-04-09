@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/description/?envType=daily-question&envId=2025-04-09
 
-from collections import Counter
+# from collections import Counter
 
 class Solution:
     def minOperations(self, nums: list[int], k: int) -> int:
