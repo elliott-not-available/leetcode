@@ -3,7 +3,7 @@ from collections import defaultdict
 
 class Solution:
     def numEquivDominoPairs(self, dominoes: list[list[int]]) -> int:
-        # can probs do some fancy count() + combinatorics stuff
+        # can probs do some fancy count() + combinatorics stuff.
         visited = defaultdict(int)
         res = 0
 
