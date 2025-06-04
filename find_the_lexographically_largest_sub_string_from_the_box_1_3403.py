@@ -3,14 +3,15 @@
 class Solution:
     def answerString(self, word: str, numFriends: int) -> str:
 
-        # use l, r pointers. left-over space = numfriends-1
+        # for each i compare max length word starting at i
 
         if numFriends == 1:
             return word
 
         res = ""
-        N = len(numFriends)
-
+        N = len(word)
+        max_l = N - numFriends + 1
         for i in range(N):
-            res = max(res, word[i: min(i+N-numFriends+1, N)])
-        return
+            
+            res = max(res, word[i: i+max_l])
+        return res
