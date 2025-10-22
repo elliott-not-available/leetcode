@@ -2,11 +2,8 @@
 from collections import Counter
 from bisect import bisect_left, bisect_right
 class Solution:
-    def maxFrequency(self, nums: list[int], k: int, numOperations: int) -> int:
 
-        nums.sort()
-
-        def max_freq_of_array(self, nums, k, numOperatrions):
+    def max_freq_of_array(self, nums, k, numOperations):
             count = Counter(nums)
 
             res = 0
@@ -19,8 +16,11 @@ class Solution:
                 res = max(res, freq)
 
             return res
-        
-        arr_max_freq = max_freq_of_array(nums, k, numOperations)
+
+    def maxFrequency(self, nums: list[int], k: int, numOperations: int) -> int:
+
+        nums.sort()
+        arr_max_freq = self.max_freq_of_array(nums, k, numOperations)
 
         left = 0
         other = 0
