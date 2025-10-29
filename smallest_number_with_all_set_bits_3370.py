@@ -10,7 +10,7 @@ class Solution:
         return int("".join(set_bin), 2)
     
 
-# # there is actually a pattern for set bits
+## there is actually a pattern for set bits
 
 # Enumerate integers that contain only set bits: 1,3,7,15.
 # We can observe that the pattern of this sequence is that
